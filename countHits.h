@@ -6,12 +6,13 @@
 // can include from our main program, 
 // includes asteroid.h so we can use our definition(Asteroid)
 
-#ifndef asteroid_h
-#define asteroid_h
-#endif
-#include  <vector>
+#ifndef countHits_h
+#define countHits_h
+#include "asteroid.h"
+#include <vector>
 
 int countHits(std::vector<Asteroid> a);
-        
+
+#endif     
 
 

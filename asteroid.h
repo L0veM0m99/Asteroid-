@@ -1,9 +1,11 @@
 
 //Nanthana Thanonklin
 //asteroid.h
+#ifndef asteroid_h
+#define asteroid_h
 
 
-enum Direction{left, right}; // by default left = 0, right =1
+enum Direction{Left, Right}; // by default left = 0, right =1
 
 //Asteroid structure specified mass and direction
 struct Asteroid {
@@ -11,4 +13,4 @@ struct Asteroid {
         Direction d; //Direction
 };
 
-
+#endif
